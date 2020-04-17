@@ -23,6 +23,7 @@ module.exports = {
             loader: 'html-loader',
           },
         ],
+        exclude: [path.resolve(__dirname, 'index.html')],
       },
       {
         test: /\.css$/,
